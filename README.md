@@ -18,7 +18,7 @@ A Feynman Gate is one such reversible gate.[1]
 
 Feynman Gate is a 2×2 reversible logic gate. 
 
-The inputs are A, B, and the outputs are P, Q. P=A gives the outputs of this gate, Q=A⊕B. 
+The inputs are A, B, and the outputs are P, Q. P=A gives the outputs of this gate, Q=A+B. 
 
 Thus the input A gets passed to P and Q gives the output as an XOR of A and B. 
 
@@ -35,7 +35,7 @@ There is also a CMOS pass transistor as shown in the figure M5 and M6 to pass th
 ## Reference Circuit Diagram
 ![image](https://user-images.githubusercontent.com/58599984/154889700-b35bc623-3efb-44f8-8d4b-2e2a40f61463.png)
 ## Reference Circuit Waveform
-![image](https://user-images.githubusercontent.com/58599984/154889740-6d12f5f3-06da-416d-8fd5-e503eb656ca2.png)
+![image](https://user-images.githubusercontent.com/58599984/154903055-e02b3b92-689a-4925-94e1-c61876f0a318.png)
 
 ## Simulation in Synopsys
 ## Schematic

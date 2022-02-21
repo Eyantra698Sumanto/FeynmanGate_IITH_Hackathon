@@ -67,8 +67,8 @@ There is also a CMOS pass transistor as shown in the figure M5 and M6 to pass th
 ## Reference Circuit Waveform
 ![image](https://user-images.githubusercontent.com/58599984/155004930-55f9993a-61f8-403f-a67d-c9c2d3c58a03.png)
 
-## Simulation in Synopsys
-### Schematic
+# Simulation in Synopsys
+## Schematic
 ![image](https://user-images.githubusercontent.com/58599984/155003310-dc58ccd8-5dc6-4d4b-94a0-c6d212ab88d7.png)
 ![image](https://user-images.githubusercontent.com/58599984/155003329-7643df8d-93fe-45a8-9809-77aa23e641ba.png)
 Note: The transmission gate using M24 nad M25 is soley used to separate the input and output just for the simulation purpose, to plot input and output separately.
@@ -144,8 +144,8 @@ v18 a gnd! dc=0.01 pulse ( 1.8 0 0.1n 0.1n 0.1n 1u 2u )
 ```
 ## Waveform
 ![image](https://user-images.githubusercontent.com/58599984/155003205-6933feb1-ec81-4627-8230-37746e44282a.png)
-## Interchanging the outputs and inputs
--------------------------------------------------
+# Interchanging the outputs and inputs
+
 ## Schematic
 ![image](https://user-images.githubusercontent.com/58599984/155004055-dc48126a-26dd-4999-89d2-43b3a89d3ebf.png)
 ![image](https://user-images.githubusercontent.com/58599984/155004113-993a4526-4246-4214-a6da-bc1e19a51a54.png)

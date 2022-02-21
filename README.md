@@ -1,7 +1,7 @@
 # Feynman Gate 
 ## Abstract
 
-Reversible logic is very effective and important in the formation of low power circuit. 
+Reversible logic is very effective and important in the formation of low power circuit.
 
 The aim of low power VLSI circuits is to reduce the power dissipation. 
 
@@ -18,15 +18,23 @@ A Feynman Gate is one such reversible gate.[1]
 
 Feynman Gate is a 2×2 reversible logic gate. 
 
-The inputs are A, B, and the outputs are P, Q. P=A gives the outputs of this gate, Q=A+B. 
+The inputs are A, B, and the outputs are P, Q. 
+
+P=A gives the outputs of this gate, Q=A⊕B. 
 
 Thus the input A gets passed to P and Q gives the output as an XOR of A and B. 
 
-The Quantum cost of an FG is calculated to be 1. Fan-out is not used in reversible logic. 
+The Quantum cost of an FG is calculated to be 1. 
 
-Cab of the gate is used to get the desired net. The corresponding circuit using MOSFETs has been as shown. 
+Fan-out is not used in reversible logic. 
 
-Here eight CMOS transistor has been used in this design. The model can be used as an improved EXOR gate with a reversibility feature. 
+Cab of the gate is used to get the desired net. 
+
+The corresponding circuit using MOSFETs has been as shown. 
+
+Here eight CMOS transistor has been used in this design. 
+
+The model can be used as an improved EXOR gate with a reversibility feature. 
 
 It can be easily verified from the output waveform that design works well for both forward and reverse directions. 
 

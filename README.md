@@ -51,8 +51,17 @@ There is also a CMOS pass transistor as shown in the figure M5 and M6 to pass th
 ## Transient Settings
 ![image](https://user-images.githubusercontent.com/58599984/154890716-35c2d360-befc-4476-9041-c360d751f378.png)
 
-## Output Waveform
+## Waveform
 ![image](https://user-images.githubusercontent.com/58599984/155003205-6933feb1-ec81-4627-8230-37746e44282a.png)
+## Interchanging the outputs and inputs
+-------------------------------------------------
+## Schematic
+![image](https://user-images.githubusercontent.com/58599984/155004055-dc48126a-26dd-4999-89d2-43b3a89d3ebf.png)
+![image](https://user-images.githubusercontent.com/58599984/155004113-993a4526-4246-4214-a6da-bc1e19a51a54.png)
+
+
+## Waveform
+![image](https://user-images.githubusercontent.com/58599984/155003970-690e6a0e-0664-4543-96f0-a0aa1cea5a87.png)
 
 ## Acknowlegement
 1. Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com

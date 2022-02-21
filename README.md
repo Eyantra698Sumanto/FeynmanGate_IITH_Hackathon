@@ -68,7 +68,7 @@ There is also a CMOS pass transistor as shown in the figure M5 and M6 to pass th
 ![image](https://user-images.githubusercontent.com/58599984/155004930-55f9993a-61f8-403f-a67d-c9c2d3c58a03.png)
 
 ## Simulation in Synopsys
-## Schematic
+### Schematic
 ![image](https://user-images.githubusercontent.com/58599984/155003310-dc58ccd8-5dc6-4d4b-94a0-c6d212ab88d7.png)
 ![image](https://user-images.githubusercontent.com/58599984/155003329-7643df8d-93fe-45a8-9809-77aa23e641ba.png)
 Note: The transmission gate using M24 nad M25 is soley used to separate the input and output just for the simulation purpose, to plot input and output separately.

@@ -49,8 +49,7 @@ There is also a CMOS pass transistor as shown in the figure M5 and M6 to pass th
 ## Schematic
 ![image](https://user-images.githubusercontent.com/58599984/155003310-dc58ccd8-5dc6-4d4b-94a0-c6d212ab88d7.png)
 ![image](https://user-images.githubusercontent.com/58599984/155003329-7643df8d-93fe-45a8-9809-77aa23e641ba.png)
-
-
+Note: The transmission gate using M24 nad M25 is soley used to separate the input and output just for the simulation purpose, to plot input and output separately.
 ## Parameters set for Voltage Source for Input A
 ![image](https://user-images.githubusercontent.com/58599984/154890823-6743f686-9eed-4966-9420-56bd3a0ee0e2.png)
 ## Parameters set for Voltage Source for Input B
@@ -59,6 +58,68 @@ There is also a CMOS pass transistor as shown in the figure M5 and M6 to pass th
 ## Transient Settings
 ![image](https://user-images.githubusercontent.com/58599984/154890716-35c2d360-befc-4476-9041-c360d751f378.png)
 
+## Netlist
+```
+*  Generated for: PrimeSim
+*  Design library name: Feynman_gate
+*  Design cell name: Feynman_gate
+*  Design view name: schematic
+.lib 'saed32nm.lib' TT
+
+*Custom Compiler Version S-2021.09
+*Mon Feb 21 17:53:36 2022
+
+.global gnd! vdd!
+********************************************************************************
+* Library          : Feynman_gate
+* Cell             : Feynman_gate
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xm24 p net80 a gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm7 net74 q b gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm6 q net74 b gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm5 net74 p gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm0 q b net74 gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm25 a gnd! p vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm4 p q b vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm3 q p b vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm2 q b p vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm1 net74 p net80 vdd! p105 w=0.1u l=0.03u nf=1 m=1
+v26 net80 gnd! dc=1.8
+v17 b gnd! dc=0.01 pulse ( 1.8 0 0.1n 0.1n 0.1n 2u 4u )
+v18 a gnd! dc=0.01 pulse ( 1.8 0 0.1n 0.1n 0.1n 1u 2u )
+
+
+
+
+
+
+
+
+.tran '1u' '20u' name=tran
+
+.option primesim_remove_probe_prefix = 0
+.probe v(*) i(*) level=1
+.probe tran v(a) v(b) v(p) v(q)
+
+.temp 25
+
+
+
+.option primesim_output=wdf
+
+
+.option parhier = LOCAL
+
+
+
+
+
+
+.end
+```
 ## Waveform
 ![image](https://user-images.githubusercontent.com/58599984/155003205-6933feb1-ec81-4627-8230-37746e44282a.png)
 ## Interchanging the outputs and inputs
@@ -130,7 +191,8 @@ v18 p gnd! dc=0.01 pulse ( 1.8 0 0.1n 0.1n 0.1n 1u 2u )
 ```
 ## Waveform
 ![image](https://user-images.githubusercontent.com/58599984/155003970-690e6a0e-0664-4543-96f0-a0aa1cea5a87.png)
-
+## Conclusion
+Thus, the input and output can be interchanged in the Feynman Gate and the functionality of the Feynman Gate is verified using 32nm Technology node of Synopsys.
 ## Acknowlegement
 1. Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
 2. Chinmay panda, IIT Hyderabad

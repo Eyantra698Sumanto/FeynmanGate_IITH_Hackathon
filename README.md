@@ -39,13 +39,22 @@ There is also a CMOS pass transistor as shown in the figure M5 and M6 to pass th
 
 ## Simulation in Synopsys
 ## Schematic
-![image](https://user-images.githubusercontent.com/58599984/154890054-2139c150-7f1d-4179-9ee9-c792b1fd438f.png)
-![image](https://user-images.githubusercontent.com/58599984/154890121-b299ed15-db4c-4bea-bdac-45e7c6ddacc1.png)
+![image](https://user-images.githubusercontent.com/58599984/154891572-6f504e7d-fdc1-433e-a665-da131d4305ba.png)
+![image](https://user-images.githubusercontent.com/58599984/154891605-1ea09787-dec1-4506-a486-50f9b0292113.png)
+
+## Parameters set for Voltage Source for Input A
+![image](https://user-images.githubusercontent.com/58599984/154890823-6743f686-9eed-4966-9420-56bd3a0ee0e2.png)
+## Parameters set for Voltage Source for Input B
+![image](https://user-images.githubusercontent.com/58599984/154891712-f6c4bfae-d422-4c86-8f40-9874719ed230.png)
+
+## Transient Settings
+![image](https://user-images.githubusercontent.com/58599984/154890716-35c2d360-befc-4476-9041-c360d751f378.png)
 
 ## Output Waveform
-![image](https://user-images.githubusercontent.com/58599984/154890015-1406a9a1-564b-4e79-85f5-d4c948626179.png)
+![image](https://user-images.githubusercontent.com/58599984/154890627-af11bc3b-d098-4f2b-9100-996d878b7612.png)
 
-## Refernces
+
+## References
 1.	U. Kumar, L. Sahu and U. Sharma, "Performance evaluation of reversible logic gates," 2016 International Conference on ICT in Business Industry & Government (ICTBIG), 2016, pp. 1-4, doi: 10.1109/ICTBIG.2016.7892693.
 2.	A. K. Rajput, S. Chouhan and M. Pattanaik, "Low Power Boolean Logic Circuits using Reversible Logic Gates," 2019 International Conference on Advances in Computing, Communication and Control (ICAC3), 2019, pp. 1-6, doi: 10.1109/ICAC347590.2019.9036799.
 

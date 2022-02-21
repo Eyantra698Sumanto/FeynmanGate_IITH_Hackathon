@@ -41,9 +41,9 @@ It can be easily verified from the output waveform that design works well for bo
 There is also a CMOS pass transistor as shown in the figure M5 and M6 to pass the inputs. [2]
 
 ## Reference Circuit Diagram
-![image](https://user-images.githubusercontent.com/58599984/154889700-b35bc623-3efb-44f8-8d4b-2e2a40f61463.png)
+![image](https://user-images.githubusercontent.com/58599984/155004906-3e55d52b-6090-4d4b-9f41-6f75b6e9cd37.png)
 ## Reference Circuit Waveform
-![image](https://user-images.githubusercontent.com/58599984/154903055-e02b3b92-689a-4925-94e1-c61876f0a318.png)
+![image](https://user-images.githubusercontent.com/58599984/155004930-55f9993a-61f8-403f-a67d-c9c2d3c58a03.png)
 
 ## Simulation in Synopsys
 ## Schematic

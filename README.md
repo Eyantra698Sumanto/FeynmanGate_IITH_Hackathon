@@ -39,8 +39,9 @@ There is also a CMOS pass transistor as shown in the figure M5 and M6 to pass th
 
 ## Simulation in Synopsys
 ## Schematic
-![image](https://user-images.githubusercontent.com/58599984/154891572-6f504e7d-fdc1-433e-a665-da131d4305ba.png)
-![image](https://user-images.githubusercontent.com/58599984/154891605-1ea09787-dec1-4506-a486-50f9b0292113.png)
+![image](https://user-images.githubusercontent.com/58599984/155003310-dc58ccd8-5dc6-4d4b-94a0-c6d212ab88d7.png)
+![image](https://user-images.githubusercontent.com/58599984/155003329-7643df8d-93fe-45a8-9809-77aa23e641ba.png)
+
 
 ## Parameters set for Voltage Source for Input A
 ![image](https://user-images.githubusercontent.com/58599984/154890823-6743f686-9eed-4966-9420-56bd3a0ee0e2.png)

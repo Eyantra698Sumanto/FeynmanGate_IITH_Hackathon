@@ -1,24 +1,22 @@
 # Feynman Gate 
-## Table of Contents
-- [Abstract](#abstract)
-- [Reference Circuit Details](#reference-circuit-details)
-- [Reference Circuit Diagram](#reference-circuit-diagram)
-- [Reference Circuit Waveform](#reference-circuit-waveform)
+  * [Abstract](#abstract)
+  * [Reference Circuit Details](#reference-circuit-details)
+  * [Reference Circuit Diagram](#reference-circuit-diagram)
+  * [Reference Circuit Waveform](#reference-circuit-waveform)
 - [Simulation in Synopsys](#simulation-in-synopsys)
-- [Schematic](#schematic)
-- [Parameters set for Voltage Source for Input A](#parameters-set-for-voltage-source-for-input-a)
-- [Parameters set for Voltage Source for Input B](#parameters-set-for-voltage-source-for-input-b)
-- [Transient Settings](#transient-settings)
-- [Netlist](#netlist)
-- [Waveform](#waveform)
+  * [Schematic](#schematic)
+  * [Parameters set for Voltage Source for Input A](#parameters-set-for-voltage-source-for-input-a)
+  * [Parameters set for Voltage Source for Input B](#parameters-set-for-voltage-source-for-input-b)
+  * [Transient Settings](#transient-settings)
+  * [Netlist](#netlist)
+  * [Waveform](#waveform)
 - [Interchanging the outputs and inputs](#interchanging-the-outputs-and-inputs)
-- [Schematic](#schematic-1)
-- [Netlist](#netlist-1)
-- [Waveform](#waveform-1)
-- [Conclusion](#conclusion)
-- [Acknowlegement](#acknowlegement)
-- [References](#references)
-
+  * [Schematic](#schematic-1)
+  * [Netlist](#netlist-1)
+  * [Waveform](#waveform-1)
+  * [Conclusion](#conclusion)
+  * [Acknowledgement](#acknowlegement)
+  * [References](#references)
 
 
 ## Abstract
@@ -215,7 +213,7 @@ v18 p gnd! dc=0.01 pulse ( 1.8 0 0.1n 0.1n 0.1n 1u 2u )
 ![image](https://user-images.githubusercontent.com/58599984/155003970-690e6a0e-0664-4543-96f0-a0aa1cea5a87.png)
 ## Conclusion
 Thus, the input and output can be interchanged in the Feynman Gate and the functionality of the Feynman Gate is verified using 32nm Technology node of Synopsys.
-## Acknowlegement
+## Acknowledgement
 1. Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
 2. Chinmay panda, IIT Hyderabad
 3. Sameer Durgoji, NIT Karnataka

@@ -1,4 +1,25 @@
 # Feynman Gate 
+- [Abstract](#abstract)
+- [Reference Circuit Details](#reference-circuit-details)
+- [Reference Circuit Diagram](#reference-circuit-diagram)
+- [Reference Circuit Waveform](#reference-circuit-waveform)
+- [Simulation in Synopsys](#simulation-in-synopsys)
+- [Schematic](#schematic)
+- [Parameters set for Voltage Source for Input A](#parameters-set-for-voltage-source-for-input-a)
+- [Parameters set for Voltage Source for Input B](#parameters-set-for-voltage-source-for-input-b)
+- [Transient Settings](#transient-settings)
+- [Netlist](#netlist)
+- [Waveform](#waveform)
+- [Interchanging the outputs and inputs](#interchanging-the-outputs-and-inputs)
+- [Schematic](#schematic-1)
+- [Netlist](#netlist-1)
+- [Waveform](#waveform-1)
+- [Conclusion](#conclusion)
+- [Acknowlegement](#acknowlegement)
+- [References](#references)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 ## Abstract
 
 Reversible logic is very effective and important in the formation of low power circuit.

@@ -216,7 +216,7 @@ Thus, the input and output can be interchanged in the Feynman Gate and the funct
 ## Acknowledgement
 1. Synopsys Team/Company
 2. Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
-3. Chinmay panda, IIT Hyderabad
+3. Chinmaya Panda, IIT Hyderabad
 4. Sameer Durgoji, NIT Karnataka
 ## References
 1.	U. Kumar, L. Sahu and U. Sharma, "Performance evaluation of reversible logic gates," 2016 International Conference on ICT in Business Industry & Government (ICTBIG), 2016, pp. 1-4, doi: 10.1109/ICTBIG.2016.7892693.
